@@ -70,6 +70,7 @@ console.log(Math.trunc(0.123));
 
 var nextPlayer = function(){
   currentScore=0;
+  image.src=`dice-${dice}.png`;
   document.getElementById(`current--${activePlayer}`).textContent = currentScore;
   activePlayer = activePlayer === 0 ? 1 : 0;
   player0.classList.toggle("player--active");
