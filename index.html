@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="style.css" />
     <title>Pig Game</title>
   </head>
-  <body>
-    <main>
+  <body class="body">
+    <div class="themes">
+      <h1>Press "TAB" to open themes.</h1>
+    </div>
+    <div class="theme-tab modal show-modal hidden">
+      <h1 id="center-text">Color Themes</h1>
+      <button class="theme-btn clasic">Clasic</button>
+      <button class="theme-btn purple">Purple</button>
+    </div>
+    <main class="main">
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
         <p class="score" id="score--0">43</p>
